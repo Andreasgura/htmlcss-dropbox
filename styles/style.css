@@ -1,19 +1,20 @@
 :root {
-	--color-footer-bg: #000000;
-	--color-main-bg: #ffffff;
-	--color-color-button: #0061ff;
-	--color-color-contrast: #b4d0e7;
-	--color-border-square1: #d1e9cd;
-	--color-main-square1: #a2d39b;
-	--color-square3: #0093ce;
-	--color-square2: #61082b;
-	--color-suqare4: #ff1c1c;
-	--color-big-square: #f5f5f5;
-	--color-square5: #d5001f;
-	--color-suqare6: #b4d0e7;
-	--color-squate7: #0d2481;
-	--color-square8: #ffd830;
+    --color-footer-bg: #000000;
+    --color-main-bg: #ffffff;
+    --color-color-button: #0061ff;
+    --color-color-contrast: #b4d0e7;
+    --color-border-square1: #d1e9cd;
+    --color-main-square1: #a2d39b;
+    --color-square3: #0093ce;
+    --color-square2: #61082b;
+    --color-suqare4: #ff1c1c;
+    --color-big-square: #f5f5f5;
+    --color-square5: #d5001f;
+    --color-suqare6: #b4d0e7;
+    --color-squate7: #0d2481;
+    --color-square8: #ffd830;
 }
+
 /* reset */
 * {
     margin: 0;
@@ -26,12 +27,13 @@
 }
 
 /* general */
-.container { 
-    max-width: 800px;
+.container {
+    max-width: 900px;
     margin: 0px auto;
 }
+
 .s-container {
-    max-width: 600px;
+    max-width: 700px;
     padding: 0px 2px;
     margin: 0px auto;
 }
@@ -39,7 +41,9 @@
 a {
     color: var(--color-footer-bg);
 }
-header ul, header div {
+
+header ul,
+header div {
     gap: 20px;
 }
 
@@ -60,7 +64,7 @@ body {
     font-variation-settings:"wdth" 100; */
     background-color: var(--color-main-bg);
     font-size: small;
-    
+
 }
 
 /* header */
@@ -76,9 +80,11 @@ header {
 }
 
 /* main */
-#hero, main {
+#hero,
+main {
     margin-top: 60px;
 }
+
 h1 {
     font-size: 3.5em;
 }
@@ -87,17 +93,21 @@ h1 {
 #hero {
     background-color: var(--color-color-contrast);
 }
+
 #b-hero {
     position: relative;
     left: 0px;
     top: 55px;
 }
+
 .l-hero {
     width: 30%;
 }
+
 .l-hero span {
     margin: 20px 0px;
 }
+
 .fa-arrow-down {
     margin-top: 25px;
 }
@@ -105,6 +115,7 @@ h1 {
 .r-hero {
     width: 70%;
 }
+
 .r-hero>img {
     width: 100%;
     min-width: 400px;
@@ -112,11 +123,43 @@ h1 {
     display: block;
 }
 
-
-/* section7 */
-.designit {
-
+/* business */
+.card-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
 }
+
+.card {
+    width: calc(100% / 3 - 10px);
+}
+
+.upper-card {
+    border: 1px solid var(--color-footer-bg);
+    text-align: center;
+}
+
+.main-card {
+    border: 1px solid var(--color-footer-bg);
+    padding: 20px 10px;
+}
+.main-card h3 {
+    text-align: center;
+}
+.card-option {
+    gap: 3px;
+    margin-bottom: 10px;
+}
+.main-card .button {
+    font-size: smaller ;
+    margin: 20px auto;
+}
+/* .main-card ul>li {
+    list-style-type: 
+} */
+/* section7 */
+/* .designit {} */
+
 /* footer */
 footer {
     background-color: var(--color-footer-bg);
