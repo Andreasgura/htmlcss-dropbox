@@ -71,4 +71,5 @@ body {
 /* footer */
 footer {
     background-color: var(--color-footer-bg);
+    color: var(--color-main-bg);
 }
