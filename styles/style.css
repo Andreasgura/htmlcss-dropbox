@@ -27,11 +27,11 @@
 
 /* general */
 .container { 
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0px auto;
 }
 .s-container {
-    max-width: 1000px;
+    max-width: 600px;
     padding: 0px 2px;
     margin: 0px auto;
 }
@@ -73,18 +73,37 @@ header {
     width: 100%;
     padding: 0px 10px;
     background-color: var(--color-main-bg);
+    z-index: 1001;
 }
 
 /* main */
-main {
+#hero, main {
     margin-top: 60px;
+}
+h1 {
+    font-size: 3.5em;
 }
 
 /* hero */
 #hero {
     background-color: var(--color-color-contrast);
 }
-
+#b-hero {
+    position: relative;
+    left: 0px;
+    top: 55px;
+}
+.l-hero {
+    width: 35%;
+}
+.r-hero {
+    width: 75%;
+    
+}
+.r-hero>img {
+    width: 100%;
+    object-fit: contain;
+}
 
 
 /* section7 */
