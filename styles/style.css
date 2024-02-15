@@ -47,21 +47,20 @@ header ul, header div {
     background-color: var(--color-color-button);
     color: var(--color-main-bg);
     padding: 5px 10px;
+    display: inline-block;
+    cursor: pointer;
 }
 
 /* body */
 body {
-    /* <uniquifier>: Use a uniquifier for the class name
-<weight>: Use a value from 300 to 800
-
-.open-sans-<uniquifier> { */
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    /* font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:"wdth" 100; */
     background-color: var(--color-main-bg);
+    font-size: small;
+    
 }
 
 /* header */
@@ -94,15 +93,23 @@ h1 {
     top: 55px;
 }
 .l-hero {
-    width: 35%;
+    width: 30%;
 }
+.l-hero span {
+    margin: 20px 0px;
+}
+.fa-arrow-down {
+    margin-top: 25px;
+}
+
 .r-hero {
-    width: 75%;
-    
+    width: 70%;
 }
 .r-hero>img {
     width: 100%;
+    min-width: 400px;
     object-fit: contain;
+    display: block;
 }
 
 
