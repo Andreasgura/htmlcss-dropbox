@@ -211,8 +211,24 @@ h1 {
     background-color: var(--color-suqare4);
 }
 
+/* cta */
+#cta {
+    background-color: var(--color-color-contrast);
+    padding: 40px 0px;
+}
+#cta h2 {
+    color: var(--color-square2);
+}
+
 /* footer */
 footer {
     background-color: var(--color-footer-bg);
+    color: var(--color-main-bg);
+}
+footer span {
+    padding-right: 5px;
+    padding-left: 10px;
+}
+footer i {
     color: var(--color-main-bg);
 }
