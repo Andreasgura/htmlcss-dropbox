@@ -42,6 +42,14 @@ a {
     color: var(--color-footer-bg);
 }
 
+li {
+    padding: 10px 0px;
+}
+
+i {
+    padding-right: 3px;
+}
+
 header ul,
 header div {
     gap: 20px;
@@ -49,6 +57,12 @@ header div {
 /* utility */
 .w-40 {
     width: 40%;
+}
+.w-25 {
+    width: 25%;
+}
+.w-75 {
+    width: 70%;
 }
 .w-60 {
     width: 60%;
@@ -143,21 +157,29 @@ h1 {
 .main-card h3 {
     text-align: center;
 }
-.card-option {
+/* .card-option {
     gap: 3px;
     margin-bottom: 10px;
-}
+} */
 .main-card .button {
     font-size: smaller ;
     margin: 20px auto;
 }
-#prova {
-    list-style-image: url(https://fontawesome.com/icons/check?f=classic&s=solid);
-  }
-  #provaB::before{
-    content: '\f00c';
+.main-card li {
+    display: flex;
+   align-items: baseline;
+}
+i.fa-solid.fa-check {
+    color: var(--color-color-button);
+}
 
+  #team {
+    border: 1px solid var(--color-footer-bg);
   }
+  #team :first-child {
+    text-align: center;
+  }
+
 /* .main-card ul>li {
     list-style-type: 
 } */
