@@ -61,6 +61,16 @@ header div {
     display: inline-block;
     cursor: pointer;
 }
+.card {
+    width: calc(100% / 3 - 10px);
+}
+
+.adapted-img {
+    width: 100%;
+    min-width: 300px;
+    object-fit: contain;
+    display: block;
+}
 
 /* body */
 body {
@@ -113,23 +123,12 @@ h1 {
     margin-top: 25px;
 }
 
-.adapted-img {
-    width: 100%;
-    min-width: 300px;
-    object-fit: contain;
-    display: block;
-}
-
 /* business */
 .card-cont {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-
-.card {
-    width: calc(100% / 3 - 10px);
 }
 
 .upper-card {
@@ -152,6 +151,13 @@ h1 {
     font-size: smaller ;
     margin: 20px auto;
 }
+#prova {
+    list-style-image: url(https://fontawesome.com/icons/check?f=classic&s=solid);
+  }
+  #provaB::before{
+    content: '\f00c';
+
+  }
 /* .main-card ul>li {
     list-style-type: 
 } */
