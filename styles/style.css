@@ -172,9 +172,43 @@ h1 {
     text-decoration: underline;
 }
 /* brands */
+.square {
+    width: 35vw;
+    min-width: 300px;
+    aspect-ratio: 1/1 ;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
 .c-brands {
-    width: 30%;
- 
+    width: 30vw;
+    max-height: 300px;
+    overflow-y: auto;
+}
+.s-square {
+    width: 50%;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#brands img {
+    width: 50%;
+    filter: invert(100%);    
+}
+.designt {
+    background-color: var(--color-main-square1);
+}
+.arizona {
+    background-color: var(--color-square2);
+}
+.florida {
+    background-color: var(--color-square3);
+}
+.topps {
+    background-color: var(--color-suqare4);
 }
 
 /* footer */
