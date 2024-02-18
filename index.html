@@ -36,7 +36,7 @@
         </div>
     </header>
     <section id="hero">
-        <div id="slogan" class="container debug">
+        <div id="slogan" class="container">
             <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
             <div id="b-hero" class="d-flex row">
                 <div class="w-40">
@@ -54,7 +54,7 @@
         </div>
     </section>
     <main>
-        <section id="business" class="debug s-container">
+        <section id="business" class="s-container">
             <h2>Trova il piano business che fa per te</h2>
             <form>
                 <input type="radio" name="subscription">
@@ -71,9 +71,11 @@
                     </div>
                     <div class="main-card">
                         <section>
-                            <h3>Professional</h3>
-                            <span><strong>&euro; 12.00</strong></span><br>
-                            <span>/mese</span>
+                            <div>
+                                <h3>Professional</h3>
+                                <span><strong>&euro; 12.00</strong></span><br>
+                                <span>/mese</span>
+                            </div>
 
                             <ul>
                                 <li>
@@ -94,11 +96,13 @@
                                 <span>oppure</span>
                                 <a href="#">acquista ora</a>
                             </div>
-                            <h5>Punti salienti del piano</h5>
-                            <ul>
-                                <li><i class="fa-solid fa-check"></i>Invia file fino a 120 GB con Dropbox Transfert</li>
-                                <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
-                            </ul>
+                            <section>
+                                <h5>Punti salienti del piano</h5>
+                                <ul>
+                                    <li><i class="fa-solid fa-check"></i>Invia file fino a 120 GB con Dropbox Transfert</li>
+                                    <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
+                                </ul>
+                            </section>
                         </section>
                     </div>
                 </div>
@@ -125,8 +129,8 @@
                 <div class="d-flex start">
                     <div class="w-75">
                         <h3>Enterprice</h3>
-                        <span>Contatta l'ufficio vendite per i prezzi</span>
-                        <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
+                        <spanc class="margin-20">Contatta l'ufficio vendite per i prezzi</span>
+                        <p class="margin-40">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
                     </div>
                     <div class="w-25 s-button">
                         Contatta l'ufficio vendite
@@ -147,12 +151,12 @@
                     <div class="button simple-button">Trova un partner</div>
             </div>
         </section>
-        <section id="multitasking" class="debug s-container">
+        <section id="multitasking" class="s-container">
             <h2>Esegui più operazioni con Dropbox Business</h2>
             <div class="card-cont">
                 <div class="card2">
                     <div>
-                        <img class="adapted-img debug" src="./img/img/business-feature-coordinate-it.png" alt="">
+                        <img class="adapted-img" src="./img/img/business-feature-coordinate-it.png" alt="">
                     </div>
                     <h3>Passa di meno da uno strumento all'altro 
                     </h3>
@@ -161,7 +165,7 @@
                 </div>
                 <div class="card2">
                     <div>
-                        <img class="adapted-img debug" src="./img/img/business-feature-integrations-it.png" alt="">
+                        <img class="adapted-img" src="./img/img/business-feature-integrations-it.png" alt="">
                     </div>
                     <h3>Passa di meno da uno strumento all'altro 
                     </h3>
@@ -170,7 +174,7 @@
                 </div>
                 <div class="card2">
                     <div>
-                        <img class="adapted-img debug" src="./img/img/business-feature-multi-device.png" alt="">
+                        <img class="adapted-img" src="./img/img/business-feature-multi-device.png" alt="">
                     </div>
                     <h3>Passa di meno da uno strumento all'altro 
                     </h3>
@@ -179,7 +183,7 @@
                 </div>
                 <div class="card2">
                     <div>
-                        <img class="adapted-img debug" src="./img/img/business-feature-security.png" alt="">
+                        <img class="adapted-img" src="./img/img/business-feature-security.png" alt="">
                     </div>
                     <h3>Passa di meno da uno strumento all'altro 
                     </h3>
@@ -188,7 +192,7 @@
                 </div>
                 <div class="card2">
                     <div>
-                        <img class="adapted-img debug" src="./img/img/business-feature-send-files-it.png" alt="">
+                        <img class="adapted-img" src="./img/img/business-feature-send-files-it.png" alt="">
                     </div>
                     <h3>Passa di meno da uno strumento all'altro 
                     </h3>
@@ -197,7 +201,7 @@
                 </div>
                 <div class="card2">
                     <div>
-                        <img class="adapted-img debug" src="./img/img/business-feature-switching-tools.png" alt="">
+                        <img class="adapted-img" src="./img/img/business-feature-switching-tools.png" alt="">
                     </div>
                     <h3>Passa di meno da uno strumento all'altro 
                     </h3>
@@ -208,11 +212,11 @@
                
             </div>
         </section>
-        <section id="team-users" class="debug s-container">
+        <section id="team-users" class="s-container">
             <h2>Più di 500.000 team ulilizzano Dropbox Business</h2>
             <a href="#">Scopri di più sui nostri clienti</a>
         </section>
-        <section id="brands" class="debug d-flex ">
+        <section id="brands" class="d-flex ">
             <div class="square">
                 <div class="s-square designt">
                     <img src="./img/img/designit.svg" alt="designt">
@@ -223,7 +227,7 @@
                 <div class="s-square florida">
                     <img src="./img/img/university_of_florida.svg" alt="florida">
                 </div>
-                <div class="s-square debug topps">
+                <div class="s-square topps">
                     <img src="./img/img/topps.svg" alt="topps">
                 </div>
             </div>
@@ -243,7 +247,7 @@
                 </div>
             </div>
         </section>
-        <section id="faq" class="debug s-container">
+        <section id="faq" class="s-container">
             <h2>Domande frequenti</h2>
             <details>
                 <summary>Qual è la differenza tra Dropbox Business standard e Dropbox Business Advanced?</summary>
@@ -263,7 +267,7 @@
     </main>
 
     <footer>
-        <div id="topfooter" class="debug container d-flex s-between">
+        <div id="topfooter" class="container d-flex s-between">
             <div>
                 <h3>Dropbox</h3>
                 <ul>

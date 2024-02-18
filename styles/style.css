@@ -91,6 +91,29 @@ header div {
     display: block;
 }
 
+#business,
+#partner,
+#multitasking,
+#team-users,
+#brands,
+#faq,
+footer {
+    margin-top: 70px;
+}
+
+.card,
+form,
+#team,
+.card2 {
+    margin-top: 30px;
+}
+
+#faq h2,
+#team-users h2,
+#multitasking {
+    padding-bottom: 30px;
+}
+
 /* body */
 body {
     font-family: "Open Sans", sans-serif;
@@ -149,6 +172,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 label {
     padding-right: 20px;
 }
@@ -167,14 +191,20 @@ label {
     text-align: center;
 }
 
+.main-card section div,
+.main-card section ul,
+.main-card section section {
+    padding-top: 15px;
+}
+.main-card h5{
+    margin-top: 50px;
+}
+
+
 /* .card-option {
     gap: 3px;
     margin-bottom: 10px;
 } */
-.main-card .button {
-    font-size: smaller;
-    margin: 20px auto;
-}
 
 .main-card li {
     display: flex;
@@ -184,27 +214,44 @@ label {
 i.fa-solid.fa-check {
     color: var(--color-color-button);
 }
+
 .s-button {
     background-color: var(--color-color-button);
     color: var(--color-main-bg);
     padding: 10px;
     cursor: pointer;
     text-align: center;
+    margin: 30px 0;
 }
+/* team */
 
 #team {
     border: 1px solid var(--color-footer-bg);
 }
+#team div.upper-card {
+    padding: 10px;
+}
+#team div.start {
+    padding: 20px;
+}
+#team div.w-75 {
+    padding-left: 20px;
+}
 
-
-
-/* .main-card ul>li {
-    list-style-type: 
-} */
-
+#team div.w-75 span {
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+#team div.w-25.s-button {
+    margin: 0px auto;
+}
 /* partner */
 #partner div.w-40 {
     padding: 40px;
+}
+#partner p {
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 
 .simple-button {
@@ -218,8 +265,13 @@ i.fa-solid.fa-check {
     width: calc(100% / 3 - 20px);
 }
 
+#multitasking h3 {
+    padding: 20px 0;
+}
+
 /* team users */
-#team-users a, div.main-card a {
+#team-users a,
+div.main-card a {
     color: -webkit-link;
     text-decoration: underline;
 }
@@ -274,7 +326,7 @@ i.fa-solid.fa-check {
 /* cta */
 #cta {
     background-color: var(--color-color-contrast);
-    padding: 40px 0px;
+    padding: 65px 0px;
 }
 
 #cta h2 {
@@ -285,6 +337,14 @@ i.fa-solid.fa-check {
 footer {
     background-color: var(--color-footer-bg);
     color: var(--color-main-bg);
+}
+
+#topfooter {
+    padding: 50px 0;
+}
+
+#bottomfooter {
+    padding: 30px 0px;
 }
 
 footer span {
