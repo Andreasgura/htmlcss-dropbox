@@ -33,7 +33,7 @@
 }
 
 .s-container {
-    max-width:1000px;
+    max-width: 1000px;
     padding: 0px 2px;
     margin: 0px auto;
 }
@@ -54,16 +54,20 @@ header ul,
 header div {
     gap: 20px;
 }
+
 /* utility */
 .w-40 {
     width: 40%;
 }
+
 .w-25 {
     width: 25%;
 }
+
 .w-75 {
     width: 70%;
 }
+
 .w-60 {
     width: 60%;
 }
@@ -75,6 +79,7 @@ header div {
     display: inline-block;
     cursor: pointer;
 }
+
 .card {
     width: calc(100% / 3 - 10px);
 }
@@ -144,6 +149,9 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+label {
+    padding-right: 20px;
+}
 
 .upper-card {
     border: 1px solid var(--color-footer-bg);
@@ -154,31 +162,41 @@ h1 {
     border: 1px solid var(--color-footer-bg);
     padding: 20px 10px;
 }
+
 .main-card h3 {
     text-align: center;
 }
+
 /* .card-option {
     gap: 3px;
     margin-bottom: 10px;
 } */
 .main-card .button {
-    font-size: smaller ;
+    font-size: smaller;
     margin: 20px auto;
 }
+
 .main-card li {
     display: flex;
-   align-items: baseline;
+    align-items: baseline;
 }
+
 i.fa-solid.fa-check {
     color: var(--color-color-button);
 }
-
-  #team {
-    border: 1px solid var(--color-footer-bg);
-  }
-  #team :first-child {
+.s-button {
+    background-color: var(--color-color-button);
+    color: var(--color-main-bg);
+    padding: 10px;
+    cursor: pointer;
     text-align: center;
-  }
+}
+
+#team {
+    border: 1px solid var(--color-footer-bg);
+}
+
+
 
 /* .main-card ul>li {
     list-style-type: 
@@ -189,52 +207,66 @@ i.fa-solid.fa-check {
     padding: 40px;
 }
 
+.simple-button {
+    background-color: var(--color-main-bg);
+    border: 1px solid var(--color-footer-bg);
+    color: var(--color-footer-bg);
+}
+
 /* multitasking */
 .card2 {
     width: calc(100% / 3 - 20px);
 }
 
 /* team users */
-#team-users a {
+#team-users a, div.main-card a {
     color: -webkit-link;
     text-decoration: underline;
 }
+
 /* brands */
 .square {
     width: 35vw;
     min-width: 300px;
-    aspect-ratio: 1/1 ;
+    aspect-ratio: 1/1;
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
 
 }
+
 .c-brands {
     width: 30vw;
     max-height: 300px;
     overflow-y: auto;
 }
+
 .s-square {
     width: 50%;
     aspect-ratio: 1/1;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
+
 #brands img {
     width: 50%;
-    filter: invert(100%);    
+    filter: invert(100%);
 }
+
 .designt {
     background-color: var(--color-main-square1);
 }
+
 .arizona {
     background-color: var(--color-square2);
 }
+
 .florida {
     background-color: var(--color-square3);
 }
+
 .topps {
     background-color: var(--color-suqare4);
 }
@@ -244,6 +276,7 @@ i.fa-solid.fa-check {
     background-color: var(--color-color-contrast);
     padding: 40px 0px;
 }
+
 #cta h2 {
     color: var(--color-square2);
 }
@@ -253,10 +286,12 @@ footer {
     background-color: var(--color-footer-bg);
     color: var(--color-main-bg);
 }
+
 footer span {
     padding-right: 5px;
     padding-left: 10px;
 }
+
 footer i {
     color: var(--color-main-bg);
 }
