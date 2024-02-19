@@ -21,6 +21,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+  }
 
 .debug {
     border: 1px solid red;
@@ -122,7 +125,6 @@ form,
 body {
     font-family: "Open Sans", sans-serif;
     background-color: var(--color-main-bg);
-    scroll-behavior: smooth;
 }
 
 /* header */
@@ -147,8 +149,8 @@ header {
     z-index: 1001;
     padding: 20px 160px;
 }
-li.drop :hover li.dropdown-menu {
-    display: block; 
+li.dropdown:hover .dropdown-menu {
+    display: flex; 
 }
 
 /* main */
