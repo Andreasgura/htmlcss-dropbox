@@ -114,15 +114,15 @@ form,
 #multitasking {
     padding-bottom: 30px;
 }
-
+.button:hover,
+.s-button:hover {
+    box-shadow: 0 1px 3px #666;
+}
 /* body */
 body {
     font-family: "Open Sans", sans-serif;
-    /* font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings:"wdth" 100; */
     background-color: var(--color-main-bg);
+    scroll-behavior: smooth;
 }
 
 /* header */
@@ -135,6 +135,20 @@ header {
     padding: 0px 10px;
     background-color: var(--color-main-bg);
     z-index: 1001;
+    box-shadow: 0 1px 3px #666;
+}
+.dropdown-menu {
+    display: none;
+    width: 100vw;
+    background-color: var(--color-main-bg);
+    position: absolute;
+    top: 61px;
+    left: 0px;
+    z-index: 1001;
+    padding: 20px 160px;
+}
+li.drop :hover li.dropdown-menu {
+    display: block; 
 }
 
 /* main */
@@ -298,7 +312,6 @@ div.main-card a {
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
-
 }
 
 .c-brands {
